@@ -54,8 +54,6 @@ void deviceConnected(esp_spp_cb_event_t event, esp_spp_cb_param_t *param)
 //              WiFi - global
 
 // Define WiFi credentials
-// String ssid = "Samsung Galaxy TBC +";
-// String password = "amfostlamuntesim";
 const long connection_timeout = 15000; // 15s
 long startConnection = 0;
 
